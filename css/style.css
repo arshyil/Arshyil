@@ -956,5 +956,5 @@ img {
     transition: .5s ease;
     justify-content: center;
     position: relative;
-    left: 535px;
+    /* left: 450px; */
 }
