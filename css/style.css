@@ -956,5 +956,14 @@ img {
     transition: .5s ease;
     justify-content: center;
     position: relative;
-    /* left: 450px; */
+    left: 630px;
+}
+
+.kontak-saya{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+    bottom: 15px;
+    font-size: 30px;
 }
