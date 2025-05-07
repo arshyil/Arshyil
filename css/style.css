@@ -942,7 +942,7 @@ img {
 
 .my-kontak a{
     display: inline-flex;
-    /* justify-content: center; */
+    justify-content: center;
     align-items: center;
     width: 4rem;
     height: 4rem;
@@ -956,7 +956,7 @@ img {
     transition: .5s ease;
     justify-content: center;
     position: relative;
-    left: 538px;
+    /* left: 538px; */
 }
 
 .kontak-saya{
@@ -964,6 +964,29 @@ img {
     align-items: center;
     display: flex;
     position: relative;
-    bottom: 15px;
+    /* bottom: 15px; */
     font-size: 30px;
+}
+
+.kontakku {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 2rem; /* opsional */
+}
+
+.kontakku a {
+    display: inline-flex;
+    width: 4rem;
+    height: 4rem;
+    background: transparent;
+    border: .2rem solid var(--main-color);
+    border-radius: 50%;
+    box-shadow: 0 .2rem .5rem var(--shadow-color);
+    font-size: 2rem;
+    color: var(--main-color);
+    margin: 2.5rem 1.5rem 3rem 0;
+    transition: .5s ease;
+    justify-content: center;
+    align-items: center;
 }
